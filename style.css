@@ -7,7 +7,7 @@
     width: 1150px;
     height: 500px;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, rgba(7, 2, 17, 0.8) 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Banner\ Image.png") ;
+    background-image: linear-gradient(180deg, rgba(7, 2, 17, 0.8) 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Banner\ Image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,36 +30,120 @@
     padding-bottom: 20px;
 }
 
-.off{
+.off {
     width: 650px;
     /* height: 900px; */
     text-align: center;
     margin: 80px auto;
 }
 
-.off-h1{
+.off-h1 {
     color: #f00;
     font-weight: 700;
     font-size: 80px;
     padding-bottom: 30px;
 }
 
-.off-p1{
+.off-p1 {
     color: #f00;
     font-weight: 500;
     font-size: 20px;
     padding-bottom: 10px;
 }
 
-.off-p2{
+.off-p2 {
     color: #070211;
     font-weight: 700;
     font-size: 42px;
 }
 
-.off-img{
+.off-img {
     width: 600px;
-    
-    
 }
 
+.midnight-party-container {
+    width: 1150px;
+    height: 500px;
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 0.8) 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.midnight-img {
+    width: 40%;
+}
+
+.midnight-img>img {
+    height: 380px;
+}
+
+.midnight-txt {
+    width: 60%;
+    padding-left: 120px;
+}
+
+.midnight-txt>h1 {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    line-height: 70px;
+}
+
+.midnight-txt>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.80);
+    padding-top: 25px;
+}
+
+.midnight-txt>button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.event-container {
+    width: 1150px;
+    height: 400px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 80px auto;
+
+}
+
+.event-container>div>p {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.event-container>div {
+    padding-top: 80px;
+}
+
+.event-container>div>p>span {
+    color: #f00;
+}
+
+.event-container>button {
+    color: #fff;
+    background-color: #f00;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 25px;
+    margin-top: 60px;
+}
